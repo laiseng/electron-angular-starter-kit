@@ -1,27 +1,29 @@
-# AndroidDebloatware
+# This is Electron Angular 7 Starter Kit with TypeScript
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
+Clone and run `npm run electron-tsc` to start testing it.
 
-## Development server
+Package installed :-
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+  * typescript : ~3.2.4
+  * @angular/core : ^7.2.5
+  * electron :  ^4.0.5
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## To Use
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-## Running unit tests
+```bash
+# Clone this repository
+git clone https://github.com/laiseng/electron-angular-starter-kit
+# Go into the repository
+cd electron-angular-starter-kit
+# Install dependencies
+npm install
+# Run the app
+npm run electron-tsc
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
